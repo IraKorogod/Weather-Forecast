@@ -1,0 +1,93 @@
+.body{
+    background: rgb(52, 79, 226);
+    border: 10px solid hsl(231, 63%, 46%);
+}
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.weather{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    opacity: 70%;
+    margin: 10px;
+}
+.list {
+    list-style-type:none;
+    font-size: 0; 
+    padding: 0;
+    border: 3px solid white;
+}
+.list li{
+    display: inline-block;
+    padding: 20px 0;
+    font-size:24px;
+    border: 3px solid white;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+}
+.w-50{
+width: 50%;
+}
+.w-25{
+    width: 25%;
+}
+.w-100{
+    width:100%;
+}
+.color_lis{
+    background-color: rgb(52, 79, 226);
+}
+.color_par{
+    background-color: turquoise;
+}
+.color_bel{
+    background-color:rgb(141, 76, 141);
+}
+.color_mos{
+    background-color:red;
+}
+.color_tel{
+    background-color: rgb(255, 115, 0);
+}
+.color_cai{
+    background-color:rgb(231, 197, 43);
+}
+.color_nd{
+    background-color: rgb(76, 109, 76);
+}
+.color_ny{
+    background-color: rgb(102, 184, 102);
+}
+.color_sf{
+    background-color: rgb(228, 94, 161);
+}
+.color_tok{
+    background-color: rgb(26, 116, 26);
+}
+.color_syd{
+    background-color:rgb(94, 53, 124)
+}
+.list:hover li{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.list li:hover {
+    cursor: pointer;
+    opacity: 1;
+}
